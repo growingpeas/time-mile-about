@@ -11,19 +11,22 @@ Google's Timeline export is a deeply nested JSON file — not something you can 
 - **Export** to CSV, Excel-ready format, PDF, or JSON
 - **100% local processing** — your location history is parsed entirely in your browser and never uploaded to a server
 
-Guides: [exporting Timeline to Excel](https://time-mile.com/guides/export-timeline-to-excel/) · [mileage tax deductions](https://time-mile.com/guides/mileage-tax-deduction/) · [Timeline missing recent trips](https://time-mile.com/guides/timeline-missing-data/)
+## Mileage rate guides
+
+Official per-country rates, with sources and verification dates:
+
+- [Export Timeline to Excel](https://time-mile.com/guides/export-timeline-to-excel/) · [Convert Timeline to a mileage log](https://time-mile.com/guides/convert-timeline-to-mileage-log/) · [Timeline missing recent trips](https://time-mile.com/guides/timeline-missing-data/)
+- [IRS standard mileage rate](https://time-mile.com/guides/irs-mileage-rate/) (US) · [HMRC approved mileage allowance](https://time-mile.com/guides/hmrc-mileage-allowance/) (UK) · [CRA automobile allowance](https://time-mile.com/guides/cra-mileage-rate/) (CA) · [ATO cents per kilometre](https://time-mile.com/guides/ato-mileage-rate/) (AU)
+- [Barème kilométrique](https://time-mile.com/guides/bareme-kilometrique/) (FR) · [Kilometerpauschale](https://time-mile.com/guides/kilometerpauschale/) (DE) · [Kilometervergoeding](https://time-mile.com/guides/kilometervergoeding/) (NL/BE) · [Rimborso chilometrico](https://time-mile.com/guides/rimborso-chilometrico/) (IT) · [Kilometraje](https://time-mile.com/guides/kilometraje/) (ES)
+- [Mileage tax deduction explained](https://time-mile.com/guides/mileage-tax-deduction/)
 
 ## Tech stack
 
 React + TypeScript + Vite, [Mantine](https://mantine.dev/) UI, Firebase (Auth/Firestore/Analytics/Hosting), Stripe for the premium tier. Static, hand-built marketing pages (English, French, Spanish, German, Italian, Portuguese, Bengali, Indonesian) are built as separate Vite entries alongside the app.
 
-## Development
+## Source
 
-```bash
-npm install
-npm run start:dev   # local dev server
-npm run build        # production build (tsc + vite build)
-```
+This repository holds the project description only — the application source is private.
 
 ## Privacy
 
